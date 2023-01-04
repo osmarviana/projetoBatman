@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: yellow;
+    cursor: pointer;
+    font-size: 22px;
+    transition: .5s;
+    font-family:'Bellefair';
+}
+
+li:hover {
+    color: white;
+    transform:scale(1.04);
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+}
+
+.galery-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.card {
+    width: auto;
+    height: 300px;
+    background-size:cover;
+    background-position: 20% 20%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 0 0 20px 10px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family:'Bellefair';
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner1 {
+    background-image: url(https://i.pinimg.com/originals/3a/d7/6a/3ad76a78820403e6f0bfc219e5df2783.jpg);
+}
+
+.banner2 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8359efd9-fa97-4919-8f02-3712e70a0eeb/dbqrejt-9ce050d8-9ab3-47a6-b03b-85815b6e4ff4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgzNTllZmQ5LWZhOTctNDkxOS04ZjAyLTM3MTJlNzBhMGVlYlwvZGJxcmVqdC05Y2UwNTBkOC05YWIzLTQ3YTYtYjAzYi04NTgxNWI2ZTRmZjQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.re09A0wNuFVOrJJUpJMbCo3a3kkFFKpMEtGuu3NRC5o);
+}
+
+.banner3 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b540f884-4bc8-4490-8cf2-c6ac7fdabbd4/dd76ttn-aa5bd578-71a2-44ab-a166-b88b8b8aa6b4.jpg/v1/fill/w_1280,h_931,q_75,strp/joker_and_harley_quinn_by_chelseafavre_dd76ttn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I1NDBmODg0LTRiYzgtNDQ5MC04Y2YyLWM2YWM3ZmRhYmJkNFwvZGQ3NnR0bi1hYTViZDU3OC03MWEyLTQ0YWItYTE2Ni1iODhiOGI4YWE2YjQuanBnIiwiaGVpZ2h0IjoiPD05MzEiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC9iNTQwZjg4NC00YmM4LTQ0OTAtOGNmMi1jNmFjN2ZkYWJiZDRcL2NoZWxzZWFmYXZyZS00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.FwZuvM8Zs-CpFameQ3YPKOhvicrs24Bv7dJ2eSycJuY);
+}
+
+.banner4 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8359efd9-fa97-4919-8f02-3712e70a0eeb/dd2q66r-f3b8834d-2656-4c0c-bad4-4bb58225973b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODM1OWVmZDktZmE5Ny00OTE5LThmMDItMzcxMmU3MGEwZWViXC9kZDJxNjZyLWYzYjg4MzRkLTI2NTYtNGMwYy1iYWQ0LTRiYjU4MjI1OTczYi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.vG-fBv0fcCKSirPq7hu7k4cudhjJpwcMB_8qKcoOJ00);
+}
+
+.banner5 {
+    background-image: url(https://i.pinimg.com/originals/d3/76/28/d3762872c164624bb9aa3b3c55b112d7.jpg);
+}
+
+.banner6 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8359efd9-fa97-4919-8f02-3712e70a0eeb/dbqfflh-a713f965-5db9-4826-a8ea-789e5b93af22.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgzNTllZmQ5LWZhOTctNDkxOS04ZjAyLTM3MTJlNzBhMGVlYlwvZGJxZmZsaC1hNzEzZjk2NS01ZGI5LTQ4MjYtYThlYS03ODllNWI5M2FmMjIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8-MIheAQfxiIfyDNcJMtW1pnBkEllOvGqNyeul9njoI);
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    font-family: 'Bellefair';   
+}
+
+h4 {
+    color: white;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    body {
+        font-size: 16px;
+        background: none;
+        background-color: black;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

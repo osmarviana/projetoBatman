@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(./bannerBatman.jpg);
+    
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form {
+    margin: 10px auto;
+    width: 400px;
+    padding: 25px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 90%;
+    font-family: 'Bellefair';
+    color: yellow;
+}
+
+input, select, textarea {
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    padding: 5px 5px 5px;
+    background-color: #d4d3d3;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    width: 120px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: rgb(112, 83, 9);
+    color: black;
+}
+
+p {
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Bellefair';
+    margin-top: -15px;
+}
+
+nav {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: yellow;
+    cursor: pointer;
+    font-size: 22px;
+    transition: .5s;
+    font-family:'Bellefair';
+}
+
+li:hover {
+    color: rgb(124, 95, 20);
+    transform:scale(1.04);
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+}
+
+#mensagem {
+    width: 100%;
+    height: 120px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: grey;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    body {
+        font-size: 16px;
+        background: none;
+        background-color: black;
+    }
+
+    input, select {
+        width: 95%;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    #mensagem {
+        width: 370px;
+        height: 120px;
+    }
+}

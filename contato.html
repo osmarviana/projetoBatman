@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./contato.css"/>
+</head>
+<body>
+    <header>
+        <img id="logo" src="./logoBatman.png">
+        <nav>
+            <ul>
+                <a href="./index.html"> 
+                    <li>Home</li> 
+                </a>                    
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./galeria.html">
+                    <li>Galeria</li>
+                </a>                        
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header> 
+    
+    <form action="contato.html">        
+        <p>Contato</p><br>   
+        <label for="name">Nome:</label>
+        <input style="display: block" id="name" type="text" name="name" placeholder="insira seu nome completo"/>
+        <br>
+        <label for="email">Email:</label>
+        <input style="display: block" id="email" type="email" name="email" placeholder="insira um email válido"/>
+        <br>
+        <label for="fone">Telefone:</label>
+        <input style="display: block" id="fone" type="tel" name="fone" placeholder="(00) 00000-0000"/>
+        <br>
+        Assunto:
+        <select style="display: block" name="assunto">
+            <option value="Dúvida">Dúvida</option>
+            <option value="Download">Download</option>
+            <option value="Outro">Outro</option>
+        </select><br>
+        
+        Descrição:               
+        <textarea id="mensagem" class="input-padrao" required></textarea>
+        <br>
+            <button>Enviar</button>
+
+        </form> 
+        <footer>
+            <img style="object-fit: contain;" id="logo" src="./logoBatman.png"/>
+            <span>Todos os direitos reservados ©</span>
+            <span>Desenvolvido por: Osmar Viana</span>
+            <nav class="footer-navigation">
+                <ul class="footer-list">
+                    <a href="./index.html"> 
+                        <li>Home</li> 
+                    </a>                    
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="./galeria.html">
+                        <li>Galeria</li>
+                    </a>                        
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                </ul>
+            </nav>
+        </footer>
+</body>
+</html>

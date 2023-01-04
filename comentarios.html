@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman</title>
+    <link rel="stylesheet" href="../projetoBatman/comentarios.css"/>
+</head>
+<body>
+    <header>
+        <img id="logo" src="./logoBatman.png">
+        <nav>
+            <ul>
+                <a href="./index.html"> 
+                    <li>Home</li> 
+                </a>                    
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./galeria.html">
+                    <li>Galeria</li>
+                </a>                        
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+        <h2>Insira seu comentário:</h2>   
+        <form action="./comentarios.html">        
+        <label for="name">Nome:</label>
+        <input style="display: block" id="name" type="text" name="name" placeholder="insira seu nome completo"/>
+        <br>
+        <label for="email">Email:</label>
+        <input style="display: block" id="email" type="email" name="email" placeholder="insira um email válido"/>
+        <br>
+        <label for="fone">Telefone:</label>
+        <input style="display: block" id="fone" type="tel" name="fone" placeholder="(00) 00000-0000"/>
+        <br>
+
+         Comentário:               
+        <textarea id="coment" class="input-padrao" required></textarea>
+        <br>
+        <button>Salvar</button>
+
+    </form>
+    
+        <h2>Comentários:</h2>
+        <div class="container">
+            <div class="dialogbox">
+            <div class="body">
+                <span class="tip tip-up"></span>
+            <div class="message">
+              <span>Inserindo comentário aleatório para constar na bio.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dialogbox">
+            <div class="body">
+                <span class="tip tip-up"></span>
+                <div class="message">
+                <span>Como será que funciona esse campo de comentários aqui, alguém consegue editar? E para adicionar outro cometário, faz como?.</span>
+              </div>
+            </div>
+        </div>
+        
+        <div class="dialogbox">
+            <div class="body">
+                <span class="tip tip-down"></span>
+                <div class="message">
+                    <span>Mais um comentário aleatório só pra constar como exemplo.</span>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <img style="object-fit: contain;" id="logo" src="./logoBatman.png"/>
+            <span>Todos os direitos reservados ©</span>
+            <span>Desenvolvido por: Osmar Viana</span>
+            <nav class="footer-navigation">
+                <ul class="footer-list">
+                    <a href="./index.html"> 
+                        <li>Home</li> 
+                    </a>                    
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="./galeria.html">
+                        <li>Galeria</li>
+                    </a>                        
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
